@@ -8,6 +8,10 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="assets/style.css" rel="stylesheet">
+  <script
+  src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+  integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+  crossorigin="anonymous"></script>
   <title>Forecast</title>
 </head>
 
@@ -23,9 +27,9 @@
             <input class="form-control mb-1" type="text" id="search-value" />
             <button name="searchterm" class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
           </div>
-          ​
+          ​<button name = "clear" class = "btn btn-danger mt-1" id="clear-btn">Clear History</button>
           <div class="list-group history" id="search-history">
-
+            
             <!-- search history goes hear -->
           </div>
     </div>
